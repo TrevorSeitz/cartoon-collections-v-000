@@ -1,12 +1,12 @@
 def roll_call_dwarves(names)
   roll = []
   names.each_with_index {|name, index| roll << "#{index}. #{name}"}
-  roll.each |dwarf|
+  roll.each do |dwarf|
     if roll.index(dwarf) != roll.length
       puts "#{dwarf}/n"
     else
       puts "#{dwarf}"
-    # end
+    end
   end
 end
 
