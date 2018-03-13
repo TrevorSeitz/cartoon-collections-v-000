@@ -6,7 +6,7 @@ def roll_call_dwarves(names)
       puts "#{dwarf}/n"
     else
       puts "#{dwarf}"
-    end
+    # end
   end
 end
 
